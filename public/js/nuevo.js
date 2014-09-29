@@ -25,7 +25,7 @@ function onFileSelected(event, num) {
 //Guardar evento en DB
 function guardarEvento(evento){
 
-	var url = "http://192.168.1.120:3000/guardar/"
+	var url = "http://itafiesmoviles.github.io:3000/guardar/"
 	console.log(url);
 	
 	var xhr = createCORSRequest('POST', url);
